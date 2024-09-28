@@ -15,7 +15,7 @@
 
                     <div class="col-md-6">
                         <div class="product-entry">
-                            <h2 class="section-title divider">Best Selling Book</h2>
+                            <h2 class="section-title divider">Penjualan Buku Terbaik</h2>
 
                             <div class="products-content">
                                 <div class="author-name">By Timbur Hood</div>
