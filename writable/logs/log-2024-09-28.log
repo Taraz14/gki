@@ -1,0 +1,46 @@
+CRITICAL - 2024-09-28 03:20:05 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "content/topbar.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('content/topbar.php')
+ 2 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('content/topbar', null, true)
+ 3 APPPATH\Views\frontend\index.php(43): CodeIgniter\View\View->include('content/topbar')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\gereja\\app\\Views\\frontend\\index.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('frontend/index', [], true)
+ 7 APPPATH\Controllers\Home.php(9): view('frontend/index')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-28 03:20:15 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "topbar.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('topbar.php')
+ 2 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('topbar', null, true)
+ 3 APPPATH\Views\frontend\index.php(43): CodeIgniter\View\View->include('topbar')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\gereja\\app\\Views\\frontend\\index.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('frontend/index', [], true)
+ 7 APPPATH\Controllers\Home.php(9): view('frontend/index')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-28 09:13:55 --> ErrorException: Array to string conversion
+[Method: GET, Route: /]
+in APPPATH\Views\frontend\index.php on line 59.
+ 1 APPPATH\Views\frontend\index.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\laragon\\www\\gereja\\app\\Views\\frontend\\index.php', 59)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\gereja\\app\\Views\\frontend\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('frontend/index', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('frontend/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
