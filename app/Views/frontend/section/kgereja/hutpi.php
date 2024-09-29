@@ -1,14 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
+<?= $this->extend("frontend/layout_utama") ?>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+<?= $this->section("content") ?>
 
-<body>
-    <h1>Hello World 3</h1>
-</body>
+<h1>Hello world 2</h1>
+<h2>Hello world 2</h2>
+<ul>
+    <li>1. Nasi</li>
+    <li>2. Ikan</li>
+    <li>3. Sayur</li>
+</ul>
 
-</html>
+<?= $this->endSection() ?>

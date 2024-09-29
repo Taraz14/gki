@@ -1,16 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
+<?= $this->extend("frontend/layout_utama") ?>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+<?= $this->section("content") ?>
 
+<h1>Hello world</h1>
+<h2>Hello world</h2>
+<h3>hello world</h3>
 
-
-<body>
-    <h1>Hello world</h1>
-</body>
-
-</html>
+<?= $this->endSection() ?>

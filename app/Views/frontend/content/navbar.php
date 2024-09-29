@@ -24,7 +24,7 @@
                 <nav id="navbar">
                     <div class="main-menu stellarnav">
                         <ul class="menu-list">
-                            <li class="menu-item active"><a href="#home">Home</a></li>
+                            <li class="menu-item active"><a href="/">Home</a></li>
                             <li class="menu-item"><a href="#featured-books" class="nav-link">Sejarah</a></li>
                             <li class="menu-item"><a href="#popular-books" class="nav-link">Visi & Misi</a></li>
                             <li class="menu-item"><a href="#special-offer" class="nav-link">Struktur Gereja</a></li>
