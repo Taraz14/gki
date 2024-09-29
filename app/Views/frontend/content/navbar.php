@@ -33,9 +33,9 @@
                             <li class="menu-item has-sub">
                                 <a href="#pages" class="nav-link">Kegiatan Gereja</a>
                                 <ul>
-                                    <li class="active"><a href="index.html">HUT Gereja</a></li>
-                                    <li><a href="index.html">HUT YPK</a></li>
-                                    <li><a href="index.html">HUT PI</a></li>
+                                    <li class="active"><a href="<?= base_url('hut-gereja'); ?>">HUT Gereja</a></li>
+                                    <li><a href="<?= base_url('hut-ypk'); ?>">HUT YPK</a></li>
+                                    <li><a href="<?= base_url('hut-pi'); ?>">HUT PI</a></li>
                                 </ul>
 
                             </li>
