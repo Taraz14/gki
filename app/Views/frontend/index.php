@@ -8,6 +8,8 @@
 /**
  * @var CodeIgniter\View\View $this
  */
+
+$uri = service('uri');
 ?>
 
 <html lang="en">
@@ -43,22 +45,28 @@
 
     <!-- Section -->
     <?php
-    $section = [
-        $this->include('frontend/section/billboard'),
-        $this->include('frontend/section/clientHolder'),
-        $this->include('frontend/section/featuredBooks'),
-        $this->include('frontend/section/bestSelling'),
-        $this->include('frontend/section/popularBooks'),
-        $this->include('frontend/section/quotation'),
-        $this->include('frontend/section/specialOffer'),
-        $this->include('frontend/section/subscribe'),
-        $this->include('frontend/section/latestBlog'),
-        $this->include('frontend/section/downloadApp')
-    ];
-    foreach ($section as $content) {
-        echo $content;
+    // echo $uri->getSegment(1);
+    // die;
+    $linked = $uri->getSegment(1);
+    if ($linked == 'hut-gereja' || $linked == 'hut-ypk' || $linked == 'hut-pi') {
+        $this->renderSection("content");
+    } else {
+        $section = [
+            $this->include('frontend/section/billboard'),
+            $this->include('frontend/section/clientHolder'),
+            $this->include('frontend/section/featuredBooks'),
+            $this->include('frontend/section/bestSelling'),
+            $this->include('frontend/section/popularBooks'),
+            $this->include('frontend/section/quotation'),
+            $this->include('frontend/section/specialOffer'),
+            $this->include('frontend/section/subscribe'),
+            $this->include('frontend/section/latestBlog'),
+            $this->include('frontend/section/downloadApp')
+        ];
+        foreach ($section as $content) {
+            echo $content;
+        }
     }
-
     ?>
     <!-- endSection -->
 

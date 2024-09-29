@@ -1,4 +1,4 @@
-<?= $this->extend("frontend/layout_utama") ?>
+<?= $this->extend("frontend/index") ?>
 
 <?= $this->section("content") ?>
 
