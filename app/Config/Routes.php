@@ -15,3 +15,7 @@ $routes->get('/hut-gereja', 'Home::hutgereja');
 
 // Login
 $routes->get('/login', 'Authentication::loginPage');
+$routes->post('/sign', 'Authentication::loginAct');
+
+// Administrator
+$routes->get('/gkiadmin', 'Administrator::index');
