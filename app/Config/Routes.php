@@ -11,3 +11,7 @@ $routes->get('/', 'Home::index');
 $routes->get('/hut-ypk', 'Hutypk::index');
 $routes->get('/hut-pi', 'Hutpi::index');
 $routes->get('/hut-gereja', 'Hutgereja::index');
+
+
+// Login
+$routes->get('/login', 'Authentication::loginPage');
