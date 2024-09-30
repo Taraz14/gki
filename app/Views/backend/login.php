@@ -46,8 +46,8 @@
                 </h2>
                 <form action="./sign" method="POST" autocomplete="off" novalidate>
                     <div class="mb-3">
-                        <label class="form-label">Email address</label>
-                        <input type="email" class="form-control" placeholder="your@email.com" autocomplete="off">
+                        <label class="form-label">Username</label>
+                        <input type="text" name="username" class="form-control" placeholder="username" autocomplete="off">
                     </div>
                     <div class="mb-2">
                         <label class="form-label">
@@ -57,7 +57,7 @@
                             </span>
                         </label>
                         <div class="input-group input-group-flat">
-                            <input type="password" class="form-control" placeholder="Your password" autocomplete="off">
+                            <input type="password" name="password" class="form-control" placeholder="Your password" autocomplete="off">
                             <span class="input-group-text">
                                 <a href="#" class="link-secondary" title="Show password" data-bs-toggle="tooltip"><!-- Download SVG icon from http://tabler-icons.io/i/eye -->
                                     <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
