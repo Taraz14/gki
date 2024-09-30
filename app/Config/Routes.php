@@ -8,9 +8,9 @@ use CodeIgniter\Router\RouteCollection;
 $routes->get('/', 'Home::index');
 
 //Kegiatan Gereja//
-$routes->get('/hut-ypk', 'Hutypk::index');
-$routes->get('/hut-pi', 'Hutpi::index');
-$routes->get('/hut-gereja', 'Hutgereja::index');
+$routes->get('/hut-ypk', 'Home::hutypk');
+$routes->get('/hut-pi', 'Home::hutpi');
+$routes->get('/hut-gereja', 'Home::hutgereja');
 
 
 // Login
